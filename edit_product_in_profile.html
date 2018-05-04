@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>Edit Profile</title>
+  </head>
+  <body>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6 mx-auto">
+          
+          <br>
+            <h1 class="text-center">Добавление/редактирование товара</h1>
+          <br>
+
+          <form>
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Раздел товара</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option selected>---</option>
+                <option>Конечные изделия</option>
+                <option>Комплектующие для изготовления окон и дверей</option>
+                <option>Комплектующие для окон и дверей</option>
+                <option>Фурнитура</option>
+              </select>             
+            </div> 
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Категория товара</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option selected>---</option>
+                <option>Производство</option>
+                <option>Продажа</option>
+                <option>Монтаж/ремонт/сервис</option>
+                <option>Другое</option>
+              </select>             
+            </div>      
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Подкатегория товара</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option selected>---</option>
+                <option>Производство</option>
+                <option>Продажа</option>
+                <option>Монтаж/ремонт/сервис</option>
+                <option>Другое</option>
+              </select>             
+            </div>                     
+
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Добавить изображение товара</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              <small class="text-muted">
+                Максимальный размер изображения 800х800 пикселей
+              </small>                  
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Название товара</label>
+              <input class="form-control" type="text" placeholder="">            
+            </div>
+ 
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Ключевые слова</label>
+              <input class="form-control" type="text" placeholder=""> 
+              <small class="text-muted">
+                Если оставить пустым, то товар будет доступен в поиске исключительно по названию. Пример слов: окно-пвх, двухстворчатое окно пвх
+              </small>           
+            </div>  
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Стоимость</label>
+              <input class="form-control" type="text" placeholder=""> 
+              <small class="text-muted">
+                НЕобязательное поле
+              </small>           
+            </div>    
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Короткое описание товара</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>      
+            </div>    
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Полное описание товара</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>      
+            </div>  
+            
+            <br>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                В наличии
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                Под заказ
+              </label>
+            </div>           
+
+            <br>
+
+            <div class="form-group form-check">                            
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Скрыть товар</label>
+            </div>
+
+
+            
+
+            <br>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Сохранить товар</button>
+            </div>
+          </form>
+          <br><br><br>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>
